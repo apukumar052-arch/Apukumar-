@@ -215,7 +215,10 @@ export function Contact({ preselectedService }: ContactProps) {
     setStatus('direct-ready');
   };
 
-  const hasAnyPlaceholderChannel = CONTACT_CHANNELS.some((ch) => ch.isPlaceholder);
+  const visibleChannels = CONTACT_CHANNELS.filter(
+    (ch) => ch.id !== 'fiverr' && ch.id !== 'upwork'
+  );
+  const hasAnyPlaceholderChannel = visibleChannels.some((ch) => ch.isPlaceholder);
 
   return (
     <section
@@ -587,7 +590,7 @@ export function Contact({ preselectedService }: ContactProps) {
             </div>
 
             <div className="space-y-3.5">
-              {CONTACT_CHANNELS.map((channel) => {
+              {visibleChannels.map((channel) => {
                 const Icon = CHANNEL_ICONS[channel.id];
                 const isExternal = channel.id !== 'email';
 

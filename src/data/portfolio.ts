@@ -27,15 +27,15 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       bn: 'ওয়েডিং এডিটিং',
     },
     serviceId: 'wedding-photo-editing',
-    image: '/src/assets/images/portfolio_wedding_editorial_1795434062566.jpg',
+    image: '/assets/aistudio/Sample4_efa31a64.jpg',
     imageAlt: {
-      en: 'Demonstration sample of warm golden-hour wedding couple Lightroom color grading and subtle skin retouching',
-      bn: 'গোল্ডেন-আওয়ার ওয়েডিং কাপল লাইটরুম কালার গ্রেডিং ও স্কিন রিটাচিং ডেমো নমুনা',
+      en: 'Golden-hour wedding couple portrait with flowing veil color graded in Adobe Lightroom and Photoshop',
+      bn: 'লাইটরুম ও ফটোশপে কালার গ্রেডিং করা গোল্ডেন-আওয়ার ওয়েডিং কাপল পোর্ট্রেট',
     },
     aspect: 'wide',
     summary: {
-      en: 'Demonstration of warm filmic Lightroom color grading, highlight recovery on bridal lace, balanced skin tones, and cohesive full-gallery preset styling.',
-      bn: 'লাইটরুমে উষ্ণ সিনেমাটিক কালার গ্রেডিং, প্রাকৃতিক স্কিন টোন সমন্বয় এবং পুরো ওয়েডিং গ্যালারির ধারাবাহিক স্টাইলিংয়ের ডেমো প্রদর্শনী।',
+      en: 'Warm filmic Lightroom color grading, highlight recovery on bridal lace, balanced skin tones, and cohesive full-gallery preset styling.',
+      bn: 'লাইটরুমে উষ্ণ সিনেমাটিক কালার গ্রেডিং, প্রাকৃতিক স্কিন টোন সমন্বয় এবং পুরো ওয়েডিং গ্যালারির ধারাবাহিক স্টাইলিং।',
     },
     deliverables: [
       { en: 'RAW Color Grading & Exposure Balance', bn: 'RAW কালার গ্রেডিং ও এক্সপোজার ব্যালেন্স' },
@@ -43,7 +43,37 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { en: 'Consistent Album Export Profile', bn: 'অ্যালবাম-রেডি কনসিস্টেন্ট এক্সপোর্ট' },
     ],
     tools: ['Adobe Lightroom', 'Adobe Photoshop'],
-    isDemo: true,
+    isDemo: false,
+  },
+  {
+    id: 'wedding-skyline-prism-edit',
+    title: {
+      en: 'Editorial Sky & Prism Wedding Grade',
+      bn: 'এডিটোরিয়াল স্কাই ও প্রিজম ওয়েডিং গ্রেড',
+    },
+    category: 'wedding',
+    categoryLabel: {
+      en: 'Wedding Editing',
+      bn: 'ওয়েডিং এডিটিং',
+    },
+    serviceId: 'wedding-photo-editing',
+    image: '/assets/aistudio/Sample2_90c7e417.jpg',
+    imageAlt: {
+      en: 'Editorial wedding couple portrait framed through meadow grass with dramatic sky tones and prism flare',
+      bn: 'মেঘলা আকাশ ও প্রিজম ফ্লেয়ারের সাথে এডিটোরিয়াল ওয়েডিং কাপল পোর্ট্রেট এডিটিং',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Moody blue-slate sky toning balanced with warm skin luminosity, beaded bridal gown detail enhancement, and dreamy foreground light-flare preservation.',
+      bn: 'নীলাভ মেঘলা আকাশের সাথে উষ্ণ স্কিন টোনের সমন্বয়, ব্রাইডাল গাউনের সূক্ষ্ম ডিটেইল ফুটিয়ে তোলা এবং প্রাকৃতিক ফ্লেয়ার ব্যালেন্সিং।',
+    },
+    deliverables: [
+      { en: 'Moody Sky & Skin Tone Balance', bn: 'স্কাই ও স্কিন টোন কালার ব্যালেন্স' },
+      { en: 'Gown Detail & Clarity Refinement', bn: 'ব্রাইডাল পোশাকের সূক্ষ্ম ডিটেইল এনহ্যান্সমেন্ট' },
+      { en: 'Natural Portrait Skin Retouching', bn: 'প্রাকৃতিক পোর্ট্রেট স্কিন রিটাচিং' },
+    ],
+    tools: ['Adobe Lightroom', 'Adobe Photoshop'],
+    isDemo: false,
   },
   {
     id: 'demo-retouch-chronograph',
@@ -76,10 +106,10 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     isDemo: true,
   },
   {
-    id: 'demo-amazon-audio-aplus',
+    id: 'amazon-kitchenware-listing-suite',
     title: {
-      en: 'Acoustics Series Amazon A+ Visual Suite',
-      bn: 'অডিও সিরিজ অ্যামাজন A+ ভিজ্যুয়াল স্যুট',
+      en: 'Kitchenware Amazon Product Listing Suite',
+      bn: 'কিচেনওয়্যার অ্যামাজন প্রোডাক্ট লিস্টিং স্যুট',
     },
     category: 'amazon',
     categoryLabel: {
@@ -87,23 +117,53 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       bn: 'অ্যামাজন ডিজাইন',
     },
     serviceId: 'amazon-product-design',
-    image: '/src/assets/images/portfolio_amazon_product_1795434063234.jpg',
+    image: '/assets/aistudio/Apukumar___d972676a.jpg',
     imageAlt: {
-      en: 'Demonstration sample of matte black and gold wireless headphones staged for Amazon A+ listing visual',
-      bn: 'অ্যামাজন A+ লিস্টিংয়ের জন্য প্রিমিয়াম হেডফোন প্রোডাক্ট ডিজাইন ডেমো নমুনা',
+      en: 'Amazon product listing image suite for stainless steel spice grinders, pizza cutter, and wooden serving tray with German feature infographics',
+      bn: 'স্টেইনলেস স্টিল স্পাইস গ্রাইন্ডার, পিজ্জা কাটার ও সার্ভিং ট্রের জন্য অ্যামাজন প্রোডাক্ট লিস্টিং ও ইনফোগ্রাফিক ডিজাইন',
     },
     aspect: 'standard',
     summary: {
-      en: 'Demonstration of conversion-focused Amazon hero and A+ module composition designed to showcase hardware craftsmanship, acoustic features, and luxury positioning.',
-      bn: 'অ্যামাজন প্রোডাক্ট লিস্টিং ও A+ মডিউলের জন্য প্রিমিয়াম প্রোডাক্ট কম্পোজিশন ও ভিজ্যুয়াল স্টোরিটেলিং ডেমো নমুনা।',
+      en: 'Complete Amazon product listing visuals for European kitchenware—featuring clean main shots, dimension and feature infographics, lifestyle staging, and comparison layouts.',
+      bn: 'ইউরোপীয় কিচেনওয়্যার ব্র্যান্ডের জন্য সম্পূর্ণ অ্যামাজন লিস্টিং ডিজাইন—মেইন ইমেজ, ডাইমেনশন ও ফিচার ইনফোগ্রাফিক, লাইফস্টাইল স্টেজিং এবং কম্প্যারিসন লেআউট।',
     },
     deliverables: [
-      { en: 'Main Hero & Feature Callout Graphics', bn: 'মেইন হিরো ও ফিচার কলআউট গ্রাফিক্স' },
-      { en: 'Amazon A+ / EBC Banner Modules', bn: 'অ্যামাজন A+ / EBC ব্যানার মডিউল' },
-      { en: 'Marketplace-Compliant Color & Sizing', bn: 'মার্কেটপ্লেস স্ট্যান্ডার্ড সাইজিং ও কালার' },
+      { en: 'Main Hero & Feature Callout Infographics', bn: 'মেইন হিরো ও ফিচার কলআউট ইনফোগ্রাফিক' },
+      { en: 'Lifestyle Staging & Comparison Charts', bn: 'লাইফস্টাইল স্টেজিং ও কম্প্যারিসন চার্ট' },
+      { en: 'Marketplace-Compliant High-Res Exports', bn: 'অ্যামাজন-স্ট্যান্ডার্ড হাই-রেজোলিউশন এক্সপোর্ট' },
     ],
-    tools: ['Adobe Photoshop', 'AI Creative Tools'],
-    isDemo: true,
+    tools: ['Adobe Photoshop', 'Adobe Illustrator'],
+    isDemo: false,
+  },
+  {
+    id: 'amazon-quercetin-supplement-suite',
+    title: {
+      en: 'Supplement Brand Amazon Listing & Infographics',
+      bn: 'সাপ্লিমেন্ট ব্র্যান্ড অ্যামাজন লিস্টিং ও ইনফোগ্রাফিক',
+    },
+    category: 'amazon',
+    categoryLabel: {
+      en: 'Amazon Design',
+      bn: 'অ্যামাজন ডিজাইন',
+    },
+    serviceId: 'amazon-product-design',
+    image: '/assets/aistudio/Apukumar__09c5305e.jpg',
+    imageAlt: {
+      en: 'Amazon product listing images for VIODIS Quercetin supplement including main bottle shot, lifestyle scene, benefit infographic, and comparison chart',
+      bn: 'সাপ্লিমেন্ট ব্র্যান্ডের অ্যামাজন প্রোডাক্ট লিস্টিং ডিজাইন—মেইন ইমেজ, লাইফস্টাইল, বেনিফিট ইনফোগ্রাফিক ও কম্প্যারিসন চার্ট',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Conversion-driven Amazon listing image suite for a Quercetin dietary supplement—combining crisp main renders, benefit infographics, lifestyle scenes, and a competitor comparison chart.',
+      bn: 'ডায়েটারি সাপ্লিমেন্টের জন্য কনভার্সন-ফোকাসড অ্যামাজন লিস্টিং ইমেজ—ক্লিন মেইন ইমেজ, বেনিফিট ইনফোগ্রাফিক, লাইফস্টাইল ভিজ্যুয়াল এবং কম্প্যারিসন চার্ট।',
+    },
+    deliverables: [
+      { en: 'Clean Studio Main Product Image', bn: 'ক্লিন স্টুডিও মেইন প্রোডাক্ট ইমেজ' },
+      { en: 'Benefit Infographics & Lifestyle Visuals', bn: 'হেলথ বেনিফিট ইনফোগ্রাফিক ও লাইফস্টাইল ভিজ্যুয়াল' },
+      { en: 'Competitor Comparison Chart Module', bn: 'কম্পিটিটর কম্প্যারিসন চার্ট মডিউল' },
+    ],
+    tools: ['Adobe Photoshop', 'Adobe Illustrator'],
+    isDemo: false,
   },
   {
     id: 'demo-fashion-editorial-portrait',

@@ -87,19 +87,21 @@ export function Navbar({ onNavigateSection }: NavbarProps) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8 h-16 lg:h-[74px] flex items-center justify-between gap-6 lg:gap-8">
-        {/* Zone 1: Brand Wordmark */}
+        {/* Zone 1: Brand Logo */}
         <a
           href="#home"
           onClick={(e) => {
             e.preventDefault();
             handleLinkClick('home');
           }}
-          className="font-display text-base sm:text-lg font-bold tracking-[0.14em] text-white whitespace-nowrap shrink-0 hover:text-white/90 transition-colors"
+          aria-label={SITE_CONFIG.brand.name}
+          className="inline-flex items-center shrink-0 hover:opacity-90 transition-opacity"
         >
-          {SITE_CONFIG.brand.name}
-          <span className="text-[#FF6B35]" aria-hidden="true">
-            .
-          </span>
+          <img
+            src="/assets/aistudio/Introduction_6c4cecf1.png"
+            alt={SITE_CONFIG.brand.name}
+            className="h-10 sm:h-12 w-auto object-contain select-none"
+          />
         </a>
 
         {/* Zone 2: Primary Navigation */}

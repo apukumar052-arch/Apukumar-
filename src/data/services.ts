@@ -14,10 +14,10 @@ export const SERVICES_DATA: ServiceItem[] = [
     number: '01',
     portfolioCategory: 'wedding',
     iconName: 'camera',
-    image: '/src/assets/images/portfolio_wedding_editorial_1795434062566.jpg',
+    image: '/assets/aistudio/Sample4_efa31a64.jpg',
     imageAlt: {
-      en: 'Warm golden-hour editorial wedding couple color grading showcase',
-      bn: 'গোল্ডেন-আওয়ার ওয়েডিং কাপল কালার গ্রেডিং নমুনা',
+      en: 'Golden-hour wedding couple portrait with flowing veil color graded for Wedding Photo Editing',
+      bn: 'গোল্ডেন-আওয়ার ওয়েডিং কাপল পোর্ট্রেট ও কালার গ্রেডিং নমুনা',
     },
     title: {
       en: 'Wedding Photo Editing',

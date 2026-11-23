@@ -8,7 +8,6 @@ import { Services } from './components/Services';
 import { Portfolio } from './components/Portfolio';
 import { WhyChooseMe } from './components/WhyChooseMe';
 import { WorkProcess } from './components/WorkProcess';
-import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import type { PortfolioCategory, ServiceId } from './types/content';
@@ -73,8 +72,6 @@ function PortfolioApp() {
         <WhyChooseMe />
 
         <WorkProcess />
-
-        <Testimonials />
 
         <Contact preselectedService={selectedService} />
       </main>

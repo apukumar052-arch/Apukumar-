@@ -52,9 +52,9 @@ export const SITE_CONFIG = {
    * Replace the placeholder handles & URLs below with your real links before launch.
    */
   contact: {
-    emailAddress: 'your.email@example.com', // Replace with your real email address
-    whatsappNumber: '8801XXXXXXXXX', // Replace with your country code + WhatsApp number (digits only, no +)
-    whatsappDisplay: '+880 1XXX-XXXXXX', // Replace with formatted display number
+    emailAddress: 'apukumar052@gmail.com',
+    whatsappNumber: '8801951268269',
+    whatsappDisplay: '+8801951268269',
     fiverrUrl: 'https://www.fiverr.com/', // Replace with https://www.fiverr.com/your_username
     fiverrHandle: 'fiverr.com/your-username',
     upworkUrl: 'https://www.upwork.com/', // Replace with https://www.upwork.com/freelancers/~your_id
@@ -93,7 +93,7 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
       en: 'Detailed briefs, RAW galleries & brand guidelines',
       bn: 'বিস্তারিত ব্রিফ, RAW গ্যালারি ও ব্র্যান্ড গাইডলাইন',
     },
-    isPlaceholder: SITE_CONFIG.contact.emailAddress === 'your.email@example.com',
+    isPlaceholder: false,
   },
   {
     id: 'fiverr',

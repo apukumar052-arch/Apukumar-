@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Image as ImageIcon } from 'lucide-react';
 
 interface ResilientImageProps {
@@ -18,8 +18,19 @@ export function ResilientImage({
   loading = 'lazy',
   fetchPriority = 'auto',
 }: ResilientImageProps) {
+  const imgRef = useRef<HTMLImageElement | null>(null);
   const [hasError, setHasError] = useState(false);
   const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setHasError(false);
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth > 0) {
+      setLoaded(true);
+    } else {
+      setLoaded(false);
+    }
+  }, [src]);
 
   if (hasError || !src) {
     return (
@@ -47,6 +58,7 @@ export function ResilientImage({
         />
       )}
       <img
+        ref={imgRef}
         src={src}
         alt={alt}
         loading={loading}
@@ -55,7 +67,7 @@ export function ResilientImage({
         referrerPolicy="no-referrer"
         onLoad={() => setLoaded(true)}
         onError={() => setHasError(true)}
-        className={`w-full h-full object-cover transition-opacity duration-500 ${
+        className={`w-full h-full object-cover transition-opacity duration-300 ${
           loaded ? 'opacity-100' : 'opacity-0'
         }`}
       />
