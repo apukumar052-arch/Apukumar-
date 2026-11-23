@@ -22,12 +22,12 @@ export const SITE_CONFIG = {
      * Put your portrait photo inside `public/images/` (e.g. `/images/apu-profile.jpg`)
      * or `src/assets/images/` and update the path below.
      */
-    profileImage: '/src/assets/images/apu_profile_portrait_1795434062443.jpg',
+    profileImage: '/assets/aistudio/apu_profile_portrait_1795434062443_85c76ee2.jpg',
     profileImageAlt: {
-      en: 'Editorial studio portrait representing Apu Kumar — replaceable profile placeholder',
-      bn: 'অপু কুমারের এডিটোরিয়াল স্টুডিও পোর্ট্রেট — সহজে পরিবর্তনযোগ্য প্রোফাইল ছবি',
+      en: 'Apu Kumar — Graphic Designer portrait',
+      bn: 'অপু কুমার — গ্রাফিক ডিজাইনার পোর্ট্রেট',
     },
-    profileImageIsPlaceholder: true,
+    profileImageIsPlaceholder: false,
   },
 
   /**
