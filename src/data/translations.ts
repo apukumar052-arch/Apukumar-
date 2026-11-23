@@ -124,6 +124,7 @@ export const TRANSLATIONS = {
         graphic: 'Graphic Design',
         youtube: 'YouTube Thumbnails',
         video: 'Video Editing',
+        canvas: 'Canvas Design',
       },
       lightbox: {
         close: 'Close preview',
@@ -396,6 +397,7 @@ export const TRANSLATIONS = {
         graphic: 'গ্রাফিক ডিজাইন',
         youtube: 'ইউটিউব থাম্বনেইল',
         video: 'ভিডিও এডিটিং',
+        canvas: 'ক্যানভাস ডিজাইন',
       },
       lightbox: {
         close: 'প্রিভিউ বন্ধ করুন',

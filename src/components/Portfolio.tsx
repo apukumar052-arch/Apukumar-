@@ -28,6 +28,7 @@ const CATEGORY_ORDER: PortfolioCategory[] = [
   'graphic',
   'youtube',
   'video',
+  'canvas',
 ];
 
 export function Portfolio({
@@ -52,6 +53,7 @@ export function Portfolio({
       graphic: 0,
       youtube: 0,
       video: 0,
+      canvas: 0,
     };
     PORTFOLIO_PROJECTS.forEach((item) => {
       counts[item.category] += 1;

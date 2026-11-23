@@ -19,7 +19,8 @@ export type PortfolioCategory =
   | 'amazon'
   | 'graphic'
   | 'youtube'
-  | 'video';
+  | 'video'
+  | 'canvas';
 
 export interface ServiceItem {
   id: ServiceId;

@@ -285,4 +285,64 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     tools: ['Adobe Premiere Pro', 'AI Creative Tools'],
     isDemo: true,
   },
+  {
+    id: 'demo-video-fragrance-reel',
+    title: {
+      en: 'Luxury Fragrance Commercial & Reel Cut',
+      bn: 'লাক্সারি ফ্র্যাগ্র্যান্স কমার্শিয়াল ও রিল এডিট',
+    },
+    category: 'video',
+    categoryLabel: {
+      en: 'Video Editing',
+      bn: 'ভিডিও এডিটিং',
+    },
+    serviceId: 'video-editing',
+    image: '/src/assets/images/video_reel_sample_1795458642919.jpg',
+    imageAlt: {
+      en: 'Demonstration frame of a luxury amber fragrance commercial edit with slow-motion water ripples and golden mist lighting',
+      bn: 'লাক্সারি পারফিউম কমার্শিয়াল ভিডিও এডিট ও সিনেমাটিক কালার গ্রেডিংয়ের ডেমো ফ্রেম',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Demonstration of slow-motion product spot editing, speed-ramp transitions, sound design layering, and rich amber-obsidian film grading for social and brand campaigns.',
+      bn: 'স্লো-মোশন প্রোডাক্ট বিজ্ঞাপন এডিটিং, স্মুথ স্পিড-র‍্যাম্প ট্রানজিশন, সাউন্ড ডিজাইন এবং সিনেমাটিক কালার গ্রেডিংয়ের ডেমো নমুনা।',
+    },
+    deliverables: [
+      { en: 'Speed-Ramp & Slow-Motion Product Cut', bn: 'স্পিড-র‍্যাম্প ও স্লো-মোশন প্রোডাক্ট এডিট' },
+      { en: 'Atmospheric Sound Design & Color Grade', bn: 'অ্যাটমোস্ফিয়ারিক সাউন্ড ডিজাইন ও কালার গ্রেড' },
+      { en: '9:16 Reels, Shorts & 16:9 Ad Masters', bn: '9:16 রিলস, শর্টস ও 16:9 বিজ্ঞাপন মাস্টার' },
+    ],
+    tools: ['Adobe Premiere Pro', 'AI Creative Tools'],
+    isDemo: true,
+  },
+  {
+    id: 'demo-canvas-abstract-wallart',
+    title: {
+      en: 'Gallery-Grade Abstract Wall Canvas Design',
+      bn: 'গ্যালারি-গ্রেড অ্যাবস্ট্রাক্ট ওয়াল ক্যানভাস ডিজাইন',
+    },
+    category: 'canvas',
+    categoryLabel: {
+      en: 'Canvas Design',
+      bn: 'ক্যানভাস ডিজাইন',
+    },
+    serviceId: 'graphic-design',
+    image: '/src/assets/images/canvas_design_sample_1795458788207.jpg',
+    imageAlt: {
+      en: 'Demonstration sample of a luxury gallery-wrapped abstract gold and terracotta wall canvas design mounted on a dark architectural wall',
+      bn: 'আধুনিক ইন্টেরিয়রের জন্য গোল্ড ও টেরাকোটা টেক্সচার্ড ওয়াল ক্যানভাস ডিজাইনের ডেমো নমুনা',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Demonstration of high-resolution custom wall canvas artwork, gallery-wrap bleed setup, realistic interior staging mockups, and print-ready CMYK preparation for home decor and e-commerce brands.',
+      bn: 'হোম ডেকর ও ই-কমার্স ব্র্যান্ডের জন্য হাই-রেজোলিউশন কাস্টম ক্যানভাস আর্টওয়ার্ক, গ্যালারি-র‍্যাপ ব্লিড সেটআপ, ইন্টেরিয়র মকআপ এবং প্রিন্ট-রেডি CMYK ফাইল প্রস্তুতির ডেমো নমুনা।',
+    },
+    deliverables: [
+      { en: '300 DPI Print-Ready Canvas Artwork', bn: '300 DPI প্রিন্ট-রেডি ক্যানভাস আর্টওয়ার্ক' },
+      { en: 'Gallery-Wrap Bleed & Multi-Size Ratios', bn: 'গ্যালারি-র‍্যাপ ব্লিড ও বিভিন্ন সাইজ রেশিও' },
+      { en: 'Photorealistic Interior Wall Mockups', bn: 'রিয়েলিস্টিক ইন্টেরিয়র ওয়াল মকআপ' },
+    ],
+    tools: ['Adobe Photoshop', 'Adobe Illustrator', 'AI Creative Tools'],
+    isDemo: true,
+  },
 ];
