@@ -214,6 +214,11 @@ export function Portfolio({
                         fallbackTitle={pick(project.title)}
                         loading="lazy"
                         className="w-full h-full transition-transform duration-500 ease-out group-hover:scale-[1.05]"
+                        imgClassName={
+                          project.aspect === 'portrait'
+                            ? 'object-cover object-top'
+                            : 'object-cover'
+                        }
                       />
                     </div>
 
@@ -338,7 +343,8 @@ export function Portfolio({
                     alt={pick(selectedProject.imageAlt)}
                     fallbackTitle={pick(selectedProject.title)}
                     loading="eager"
-                    className="w-full h-full max-h-[65vh] lg:max-h-[75vh] object-contain"
+                    className="w-full h-full max-h-[65vh] lg:max-h-[75vh]"
+                    imgClassName="object-contain"
                   />
                 </div>
 

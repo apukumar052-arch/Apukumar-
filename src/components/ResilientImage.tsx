@@ -5,6 +5,7 @@ interface ResilientImageProps {
   src: string;
   alt: string;
   className?: string;
+  imgClassName?: string;
   fallbackTitle?: string;
   loading?: 'lazy' | 'eager';
   fetchPriority?: 'high' | 'low' | 'auto';
@@ -14,6 +15,7 @@ export function ResilientImage({
   src,
   alt,
   className = '',
+  imgClassName = 'object-cover',
   fallbackTitle,
   loading = 'lazy',
   fetchPriority = 'auto',
@@ -67,7 +69,7 @@ export function ResilientImage({
         referrerPolicy="no-referrer"
         onLoad={() => setLoaded(true)}
         onError={() => setHasError(true)}
-        className={`w-full h-full object-cover transition-opacity duration-300 ${
+        className={`w-full h-full ${imgClassName} transition-opacity duration-300 ${
           loaded ? 'opacity-100' : 'opacity-0'
         }`}
       />

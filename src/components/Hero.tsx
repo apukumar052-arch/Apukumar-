@@ -1,8 +1,29 @@
 import { motion } from 'motion/react';
-import { ArrowDownRight, ArrowUpRight, Globe } from 'lucide-react';
+import {
+  ArrowDownRight,
+  ArrowUpRight,
+  Camera,
+  Film,
+  Globe,
+  PenTool,
+  Play,
+  ShoppingBag,
+  Sparkles,
+  Wand2,
+} from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { SITE_CONFIG } from '../config/siteConfig';
 import { ResilientImage } from './ResilientImage';
+
+const MARQUEE_ICONS = [
+  Camera,
+  Wand2,
+  ShoppingBag,
+  Play,
+  PenTool,
+  Film,
+  Sparkles,
+] as const;
 
 interface HeroProps {
   onViewWork: () => void;
@@ -184,13 +205,24 @@ export function Hero({ onViewWork, onHireMe }: HeroProps) {
         aria-hidden="true"
         className="mt-14 lg:mt-20 border-t border-white/[0.06] pt-6 overflow-hidden select-none"
       >
-        <div className="flex w-max animate-marquee items-center gap-8 text-xs sm:text-sm font-medium tracking-wide text-[#A5A5AD]/85">
-          {marqueeItems.map((item, index) => (
-            <span key={`${item}-${index}`} className="inline-flex items-center gap-8 whitespace-nowrap">
-              <span>{item}</span>
-              <span className="text-[#FF6B35]/70">·</span>
-            </span>
-          ))}
+        <div className="flex w-max animate-marquee items-center gap-8 text-xs sm:text-sm font-medium tracking-wide text-[#A5A5AD]/90">
+          {marqueeItems.map((item, index) => {
+            const Icon = MARQUEE_ICONS[index % MARQUEE_ICONS.length];
+            return (
+              <span
+                key={`${item}-${index}`}
+                className="inline-flex items-center gap-8 whitespace-nowrap"
+              >
+                <span className="inline-flex items-center gap-2.5">
+                  <span className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-white/[0.04] border border-white/[0.08] text-[#FF6B35] shrink-0">
+                    <Icon className="w-3.5 h-3.5" aria-hidden="true" />
+                  </span>
+                  <span>{item}</span>
+                </span>
+                <span className="text-[#FF6B35]/60">·</span>
+              </span>
+            );
+          })}
         </div>
       </div>
     </section>

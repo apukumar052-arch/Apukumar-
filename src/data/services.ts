@@ -46,10 +46,10 @@ export const SERVICES_DATA: ServiceItem[] = [
     number: '02',
     portfolioCategory: 'retouching',
     iconName: 'layers',
-    image: '/src/assets/images/portfolio_photo_retouch_1795434062890.jpg',
+    image: '/assets/aistudio/portfolio_photo_retouch_1795434062890_3d6054c5.jpg',
     imageAlt: {
-      en: 'Commercial luxury chronograph wristwatch retouching on dark obsidian stone',
-      bn: 'লাক্সারি ঘড়ির হাই-এন্ড কমার্শিয়াল ফটো রিটাচিং নমুনা',
+      en: 'Before and after high-end beauty portrait skin retouching comparison preserving natural skin texture',
+      bn: 'প্রাকৃতিক স্কিন টেক্সচার বজায় রেখে বিফোর-আফটার হাই-এন্ড বিউটি স্কিন রিটাচিং নমুনা',
     },
     title: {
       en: 'Professional Photo Editing',
