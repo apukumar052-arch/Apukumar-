@@ -6,6 +6,7 @@ import {
   Film,
   Layers,
   Palette,
+  Play,
   ShoppingBag,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -23,6 +24,7 @@ const ICON_MAP = {
   layers: Layers,
   shoppingBag: ShoppingBag,
   palette: Palette,
+  play: Play,
   film: Film,
 } as const;
 

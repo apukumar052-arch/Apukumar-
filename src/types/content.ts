@@ -10,6 +10,7 @@ export type ServiceId =
   | 'professional-photo-editing'
   | 'amazon-product-design'
   | 'graphic-design'
+  | 'youtube-thumbnail-design'
   | 'video-editing';
 
 export type PortfolioCategory =
@@ -26,7 +27,7 @@ export interface ServiceItem {
   id: ServiceId;
   number: string;
   portfolioCategory: PortfolioCategory;
-  iconName: 'camera' | 'layers' | 'shoppingBag' | 'palette' | 'film';
+  iconName: 'camera' | 'layers' | 'shoppingBag' | 'palette' | 'play' | 'film';
   image: string;
   imageAlt: LocalizedText;
   title: LocalizedText;
