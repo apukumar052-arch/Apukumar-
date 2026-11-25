@@ -120,6 +120,9 @@ export function Contact({ preselectedService }: ContactProps) {
   };
 
   const selectedServiceTitle = (() => {
+    if (values.service === 'canvas-design') {
+      return t.portfolio.categories.canvas;
+    }
     const match = SERVICES_DATA.find((item) => item.id === values.service);
     return match ? pick(match.title) : values.service;
   })();
@@ -142,6 +145,15 @@ export function Contact({ preselectedService }: ContactProps) {
     return `mailto:${SITE_CONFIG.contact.emailAddress}?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(buildFormattedBrief())}`;
+  };
+
+  const buildGmailHref = () => {
+    const subject = `Project Inquiry: ${selectedServiceTitle} — ${values.name.trim()}`;
+    return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+      SITE_CONFIG.contact.emailAddress
+    )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+      buildFormattedBrief()
+    )}`;
   };
 
   const buildWhatsappHref = () => {
@@ -291,7 +303,9 @@ export function Contact({ preselectedService }: ContactProps) {
                 {/* Verified Real Dispatch Actions */}
                 <div className="flex flex-wrap items-center gap-3">
                   <a
-                    href={buildMailtoHref()}
+                    href={buildGmailHref()}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-[#FF6B35] hover:bg-[#ff7d4d] text-[#0B0B0D] font-semibold text-sm transition-colors"
                   >
                     <Mail className="w-4 h-4" aria-hidden="true" />
@@ -327,7 +341,7 @@ export function Contact({ preselectedService }: ContactProps) {
                   </button>
                 </div>
 
-                <div className="pt-4 border-t border-white/[0.08]">
+                <div className="pt-4 border-t border-white/[0.08] flex flex-wrap items-center justify-between gap-3">
                   <button
                     type="button"
                     onClick={() => setStatus('idle')}
@@ -335,6 +349,14 @@ export function Contact({ preselectedService }: ContactProps) {
                   >
                     ← {t.contact.form.editBriefBtn}
                   </button>
+                  <a
+                    href={buildMailtoHref()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs font-medium text-[#A5A5AD] hover:text-[#FF6B35] transition-colors underline underline-offset-4"
+                  >
+                    {t.contact.form.openMailAppBtn}
+                  </a>
                 </div>
               </div>
             ) : (
@@ -357,7 +379,9 @@ export function Contact({ preselectedService }: ContactProps) {
                       </p>
                       <div className="flex flex-wrap gap-3 pt-1">
                         <a
-                          href={buildMailtoHref()}
+                          href={buildGmailHref()}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="text-xs font-semibold text-[#FF6B35] hover:underline"
                         >
                           {t.contact.form.openEmailBtn} →
@@ -493,6 +517,12 @@ export function Contact({ preselectedService }: ContactProps) {
                         {service.number}. {pick(service.title)}
                       </option>
                     ))}
+                    <option
+                      value="canvas-design"
+                      className="bg-[#0B0B0D] text-white"
+                    >
+                      06. {t.portfolio.categories.canvas}
+                    </option>
                   </select>
                   {errors.service && (
                     <p

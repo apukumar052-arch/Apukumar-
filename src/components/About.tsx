@@ -1,6 +1,12 @@
 import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 
+const SOFTWARE_LOGOS: Record<string, string> = {
+  Ps: '/assets/aistudio/adobe-photoshop-icon_41b0783f.png',
+  Lr: '/assets/aistudio/960px-Adobe_Photoshop_Lightroom_CC_logo.svg_5256ef0f.webp',
+  Pr: '/assets/aistudio/adobe-premiere-pro-icon_55a453cc.png',
+};
+
 export function About() {
   const { t } = useLanguage();
 
@@ -71,27 +77,41 @@ export function About() {
               </p>
 
               <div className="mt-7 divide-y divide-white/[0.07]">
-                {t.about.software.map((tool) => (
-                  <div
-                    key={tool.name}
-                    className="py-5 first:pt-0 last:pb-0 flex items-start gap-4 group"
-                  >
+                {t.about.software.map((tool) => {
+                  const logoSrc = SOFTWARE_LOGOS[tool.code];
+                  return (
                     <div
-                      aria-hidden="true"
-                      className="w-11 h-11 rounded-xl bg-[#0B0B0D] border border-white/10 group-hover:border-[#FF6B35]/50 flex items-center justify-center shrink-0 font-display text-sm font-bold text-[#F5B544] transition-colors duration-200"
+                      key={tool.name}
+                      className="py-5 first:pt-0 last:pb-0 flex items-start gap-4 group"
                     >
-                      {tool.code}
+                      {logoSrc ? (
+                        <div className="w-11 h-11 rounded-xl overflow-hidden border border-white/10 group-hover:border-[#FF6B35]/50 shrink-0 transition-colors duration-200">
+                          <img
+                            src={logoSrc}
+                            alt={`${tool.name} logo`}
+                            loading="lazy"
+                            className="w-full h-full object-contain select-none"
+                          />
+                        </div>
+                      ) : (
+                        <div
+                          aria-hidden="true"
+                          className="w-11 h-11 rounded-xl bg-[#0B0B0D] border border-white/10 group-hover:border-[#FF6B35]/50 flex items-center justify-center shrink-0 font-display text-sm font-bold text-[#F5B544] transition-colors duration-200"
+                        >
+                          {tool.code}
+                        </div>
+                      )}
+                      <div className="min-w-0">
+                        <h4 className="text-base font-semibold text-white">
+                          {tool.name}
+                        </h4>
+                        <p className="mt-1 text-sm text-[#A5A5AD] leading-relaxed">
+                          {tool.role}
+                        </p>
+                      </div>
                     </div>
-                    <div className="min-w-0">
-                      <h4 className="text-base font-semibold text-white">
-                        {tool.name}
-                      </h4>
-                      <p className="mt-1 text-sm text-[#A5A5AD] leading-relaxed">
-                        {tool.role}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           </motion.div>

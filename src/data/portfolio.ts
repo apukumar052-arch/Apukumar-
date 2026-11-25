@@ -286,6 +286,67 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     isDemo: false,
   },
   {
+    id: 'wedding-gothic-arch-raw-grade',
+    title: {
+      en: 'Gothic Archway RAW Wedding Color Grading',
+      bn: 'গথিক আর্চওয়ে RAW ওয়েডিং কালার গ্রেডিং',
+    },
+    category: 'wedding',
+    categoryLabel: {
+      en: 'Wedding Editing',
+      bn: 'ওয়েডিং এডিটিং',
+    },
+    serviceId: 'wedding-photo-editing',
+    image:
+      '/assets/aistudio/Moody_Style_Wedding_Colour_Grading_Preset___Photo_Feaver_50aff31c.jpg',
+    imageAlt: {
+      en: 'Before and after Sony RAW wedding couple color grading under Gothic stone arches showing lifted shadows, warm golden foliage, and luminous bridal gown whites',
+      bn: 'গথিক পাথরের আর্চের নিচে ওয়েডিং কাপলের বিফোর-আফটার RAW কালার গ্রেডিং ও উষ্ণ সোনালি লাইটিং',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Before-and-after Sony RAW (.ARW) wedding color grading under ivy-draped Gothic stone arches—recovering shadow detail, warming foliage into golden-amber tones, and preserving luminous bridal whites.',
+      bn: 'গথিক আর্চওয়েতে তোলা ওয়েডিং কাপলের বিফোর-আফটার RAW কালার গ্রেডিং—শ্যাডো রিকভারি, উষ্ণ সোনালি পাতার টোন এবং উজ্জ্বল ব্রাইডাল গাউন ব্যালেন্সিং।',
+    },
+    deliverables: [
+      { en: 'RAW Dynamic Range & Shadow Recovery', bn: 'RAW ডাইনামিক রেঞ্জ ও শ্যাডো রিকভারি' },
+      { en: 'Warm Golden Foliage & Skin Tone Balance', bn: 'সোনালি প্রকৃতি ও প্রাকৃতিক স্কিন টোন ব্যালেন্স' },
+      { en: 'Consistent Lightroom Wedding Preset Grade', bn: 'ধারাবাহিক লাইটরুম ওয়েডিং কালার গ্রেড' },
+    ],
+    tools: ['Adobe Lightroom', 'Adobe Photoshop'],
+    isDemo: false,
+  },
+  {
+    id: 'wedding-luxury-bridal-garden-grade',
+    title: {
+      en: 'Luxury Editorial Bridal Lightroom Grade',
+      bn: 'লাক্সারি এডিটোরিয়াল ব্রাইডাল লাইটরুম গ্রেড',
+    },
+    category: 'wedding',
+    categoryLabel: {
+      en: 'Wedding Editing',
+      bn: 'ওয়েডিং এডিটিং',
+    },
+    serviceId: 'wedding-photo-editing',
+    image: '/assets/aistudio/LUXURY_LIGHTROOM_PRESETS___Thelutbay_afdb810c.jpg',
+    imageAlt: {
+      en: 'Before and after luxury editorial bridal portrait edited in Adobe Lightroom with crisp pure-white lace gown highlights, desaturated emerald foliage, and radiant skin tones',
+      bn: 'অ্যাডোবি লাইটরুমে এডিট করা বিফোর-আফটার লাক্সারি ব্রাইডাল পোর্ট্রেট—উজ্জ্বল সাদা গাউন, এডিটোরিয়াল গ্রিন টোন ও নিখুঁত স্কিন কালার',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Before-and-after luxury bridal Lightroom grading transforming flat daylight into crisp editorial contrast—brightening pure-white lace detail, refining foliage to cool sage-emerald, and illuminating natural skin tones.',
+      bn: 'বিফোর-আফটার লাক্সারি ব্রাইডাল লাইটরুম গ্রেডিং—সাদা লেস গাউনের উজ্জ্বলতা বৃদ্ধি, এডিটোরিয়াল সবুজ টোন এবং প্রাণবন্ত স্কিন কালার কারেকশন।',
+    },
+    deliverables: [
+      { en: 'Luminous Pure-White Bridal Lace Exposure', bn: 'উজ্জ্বল ও নিখুঁত সাদা ব্রাইডাল গাউন এক্সপোজার' },
+      { en: 'Editorial Desaturated Foliage Color Grade', bn: 'এডিটোরিয়াল সবুজ পাতার কালার গ্রেডিং' },
+      { en: 'Crisp Contrast & Radiant Skin Calibration', bn: 'নিখুঁত কনট্রাস্ট ও প্রাকৃতিক স্কিন ক্যালিব্রেশন' },
+    ],
+    tools: ['Adobe Lightroom', 'Adobe Photoshop'],
+    isDemo: false,
+  },
+  {
     id: 'demo-retouch-chronograph',
     title: {
       en: 'High-End Beauty Skin Retouching',
@@ -463,6 +524,160 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       { en: 'Natural Skin Tone & Detail Retouching', bn: 'প্রাকৃতিক স্কিন টোন ও ডিটেইল রিটাচিং' },
     ],
     tools: ['Adobe Photoshop', 'Adobe Lightroom'],
+    isDemo: false,
+  },
+  {
+    id: 'retouching-editorial-beauty-honeycomb',
+    title: {
+      en: 'Editorial Beauty & Dodge-and-Burn Retouch',
+      bn: 'এডিটোরিয়াল বিউটি ও ডজ-অ্যান্ড-বার্ন রিটাচিং',
+    },
+    category: 'retouching',
+    categoryLabel: {
+      en: 'Photo Retouching',
+      bn: 'ফটো রিটাচিং',
+    },
+    serviceId: 'professional-photo-editing',
+    image:
+      '/assets/aistudio/High_end_Retouch___Beauty_Retouch__1____Images____Behance_e64ecc26.jpg',
+    imageAlt: {
+      en: 'Before and after high-end editorial beauty portrait retouching showing natural skin texture preservation, temple tape removal, sculpted lighting, and refined terracotta lip and nail color grading',
+      bn: 'প্রাকৃতিক স্কিন টেক্সচার সংরক্ষণ, ডজ অ্যান্ড বার্ন কন্টুরিং এবং কালার গ্রেডিংসহ বিফোর-আফটার হাই-এন্ড এডিটোরিয়াল বিউটি রিটাচিং',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Magazine-grade before-and-after beauty retouching featuring micro dodge-and-burn contouring, non-destructive pore preservation, temple tape and stray hair cleanup, and cohesive terracotta lip and nail color grading.',
+      bn: 'ম্যাগাজিন মানের বিফোর-আফটার বিউটি রিটাচিং—মাইক্রো ডজ অ্যান্ড বার্ন কন্টুরিং, প্রাকৃতিক স্কিন টেক্সচার সংরক্ষণ, সূক্ষ্ম ক্লিনআপ এবং উষ্ণ এডিটোরিয়াল কালার গ্রেডিং।',
+    },
+    deliverables: [
+      { en: 'Micro Dodge & Burn & Pore-Preserving Skin', bn: 'মাইক্রো ডজ অ্যান্ড বার্ন ও প্রাকৃতিক স্কিন টেক্সচার' },
+      { en: 'Temple Tape, Blemish & Stray Hair Cleanup', bn: 'অবাঞ্ছিত অংশ, দাগ ও হেয়ার ক্লিনআপ' },
+      { en: 'Editorial Makeup, Lip & Nail Color Grading', bn: 'এডিটোরিয়াল মেকআপ, লিপ ও কালার গ্রেডিং' },
+    ],
+    tools: ['Adobe Photoshop', 'Adobe Lightroom'],
+    isDemo: false,
+  },
+  {
+    id: 'retouching-ecommerce-handbag-amazon',
+    title: {
+      en: 'E-Commerce Handbag Retouching & Reflection',
+      bn: 'ই-কমার্স হ্যান্ডব্যাগ রিটাচিং ও রিফ্লেকশন',
+    },
+    category: 'amazon',
+    categoryLabel: {
+      en: 'Amazon Design',
+      bn: 'অ্যামাজন ডিজাইন',
+    },
+    serviceId: 'amazon-product-design',
+    image:
+      '/assets/aistudio/Do_professional_ecommerce_product_photo_retouching_and_enhancement_by_Kamruzzaman_up1___Fiverr_ca65a34d.jpg',
+    imageAlt: {
+      en: 'Before and after e-commerce product photo retouching of a turquoise handbag with pure white background removal, vibrant color correction, and soft reflection shadow',
+      bn: 'ই-কমার্স ও অ্যামাজনের জন্য হ্যান্ডব্যাগের বিফোর-আফটার ব্যাকগ্রাউন্ড রিমুভাল, কালার কারেকশন ও রিফ্লেকশন শ্যাডো রিটাচিং',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Amazon-ready before-and-after e-commerce product retouching featuring precision clipping path background removal, vibrant color enhancement, metallic hardware polish, and a clean studio reflection.',
+      bn: 'অ্যামাজন ও ই-কমার্সের জন্য বিফোর-আফটার প্রোডাক্ট রিটাচিং—নিখুঁত ক্লিপিং পাথ ব্যাকগ্রাউন্ড রিমুভাল, উজ্জ্বল কালার কারেকশন এবং প্রাকৃতিক স্টুডিও রিফ্লেকশন।',
+    },
+    deliverables: [
+      { en: 'Pure White Background Removal & Clipping Path', bn: 'পিওর হোয়াইট ব্যাকগ্রাউন্ড রিমুভাল ও ক্লিপিং পাথ' },
+      { en: 'True-to-Life Color & Hardware Polish', bn: 'নিখুঁত কালার কারেকশন ও ডিটেইল পলিশ' },
+      { en: 'Custom Mirror Reflection & Amazon-Ready Export', bn: 'কাস্টম রিফ্লেকশন শ্যাডো ও অ্যামাজন-রেডি এক্সপোর্ট' },
+    ],
+    tools: ['Adobe Photoshop'],
+    isDemo: false,
+  },
+  {
+    id: 'retouching-real-estate-living-room',
+    title: {
+      en: 'Real Estate Living Room HDR & Staging Edit',
+      bn: 'রিয়েল এস্টেট লিভিং রুম HDR ও এডিটিং',
+    },
+    category: 'amazon',
+    categoryLabel: {
+      en: 'Amazon Design',
+      bn: 'অ্যামাজন ডিজাইন',
+    },
+    serviceId: 'amazon-product-design',
+    image:
+      '/assets/aistudio/How_to_Edit_Real_Estate_Photos_to_Boost_Listings_and_Increase_Sales_0f065972.jpg',
+    imageAlt: {
+      en: 'Before and after real estate living room photo editing transforming a dim interior into a bright airy listing with clean white walls, blue sky window pull, and refreshed staging',
+      bn: 'অন্ধকার লিভিং রুমকে উজ্জ্বল সাদা দেয়াল, পরিষ্কার জানালার দৃশ্য ও আধুনিক স্টেজিংয়ে রূপান্তরিত বিফোর-আফটার রিয়েল এস্টেট ফটো এডিটিং',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Before-and-after real estate interior enhancement converting an underexposed living room into a listing-ready showcase with balanced HDR exposure, clean white walls, crisp blue-sky window pulls, and polished hardwood floors.',
+      bn: 'কম আলোর লিভিং রুমকে লিস্টিং-রেডি উজ্জ্বল ইন্টেরিয়রে রূপান্তর—ব্যালেন্সড HDR এক্সপোজার, পরিষ্কার সাদা দেয়াল, জানালার নীল আকাশ এবং উজ্জ্বল কাঠের ফ্লোর এডিটিং।',
+    },
+    deliverables: [
+      { en: 'HDR Exposure Lift & White Balance Correction', bn: 'HDR এক্সপোজার লিফট ও হোয়াইট ব্যালেন্স কারেকশন' },
+      { en: 'Window Pull & Blue Sky Replacement', bn: 'উইন্ডো পুল ও প্রাকৃতিক নীল আকাশ সংযোজন' },
+      { en: 'Clutter Removal & Bright Interior Enhancement', bn: 'অপ্রয়োজনীয় বস্তু রিমুভাল ও উজ্জ্বল ইন্টেরিয়র ফিনিশ' },
+    ],
+    tools: ['Adobe Photoshop', 'Adobe Lightroom'],
+    isDemo: false,
+  },
+  {
+    id: 'retouching-ecommerce-plush-teddy',
+    title: {
+      en: 'E-Commerce Plush Toy Background & Shadow Edit',
+      bn: 'ই-কমার্স প্রোডাক্ট ব্যাকগ্রাউন্ড ও শ্যাডো এডিটিং',
+    },
+    category: 'amazon',
+    categoryLabel: {
+      en: 'Amazon Design',
+      bn: 'অ্যামাজন ডিজাইন',
+    },
+    serviceId: 'amazon-product-design',
+    image: '/assets/aistudio/E-commerce_Product_photo_editing____Behance_b34cb865.jpg',
+    imageAlt: {
+      en: 'Before and after e-commerce product photo editing of a London hoodie teddy bear showcasing fur-edge background removal, proper color correction, and realistic soft shadows',
+      bn: 'ই-কমার্স প্রোডাক্ট ফটো এডিটিং—ব্যাকগ্রাউন্ড রিমুভাল, নিখুঁত কালার কারেকশন ও রিয়ালিস্টিক শ্যাডোসহ বিফোর-আফটার নমুনা',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Detailed before-and-after e-commerce product editing with fine plush-fur edge masking on pure white, accurate color correction on warm fur and red fabric, and soft realistic contact shadows.',
+      bn: 'সূক্ষ্ম ফার-এজ মাস্কিংসহ পিওর হোয়াইট ব্যাকগ্রাউন্ড রিমুভাল, সঠিক কালার কারেকশন এবং স্বাভাবিক রিয়ালিস্টিক শ্যাডোসহ ই-কমার্স প্রোডাক্ট ফটো এডিটিং।',
+    },
+    deliverables: [
+      { en: 'Complex Fur-Edge Masking & Pure White Backdrop', bn: 'সূক্ষ্ম ফার-এজ মাস্কিং ও পিওর হোয়াইট ব্যাকগ্রাউন্ড' },
+      { en: 'Accurate Product Color & Contrast Correction', bn: 'সঠিক প্রোডাক্ট কালার ও কনট্রাস্ট কারেকশন' },
+      { en: 'Natural Contact & Drop Shadow Creation', bn: 'প্রাকৃতিক কন্টাক্ট ও রিয়ালিস্টিক শ্যাডো তৈরি' },
+    ],
+    tools: ['Adobe Photoshop'],
+    isDemo: false,
+  },
+  {
+    id: 'retouching-real-estate-interior-hdr',
+    title: {
+      en: 'Real Estate Interior Color & Light Correction',
+      bn: 'রিয়েল এস্টেট ইন্টেরিয়র কালার ও লাইট কারেকশন',
+    },
+    category: 'amazon',
+    categoryLabel: {
+      en: 'Amazon Design',
+      bn: 'অ্যামাজন ডিজাইন',
+    },
+    serviceId: 'amazon-product-design',
+    image:
+      '/assets/aistudio/Fai_editing_di_foto_immobiliari_e_correzione_del_colore_088d5dd8.jpg',
+    imageAlt: {
+      en: 'Dual before and after real estate interior photo editing for a modern lounge and timber kitchen featuring color cast removal, balanced daylight exposure, and shadow recovery',
+      bn: 'আধুনিক লাউঞ্জ ও কিচেন ইন্টেরিয়রের বিফোর-আফটার রিয়েল এস্টেট কালার কারেকশন, ডেলাইট ব্যালেন্স ও শ্যাডো রিকভারি',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Dual-room before-and-after architectural interior retouching removing harsh color casts, lifting deep shadows across living and kitchen spaces, and delivering natural, inviting MLS-ready lighting.',
+      bn: 'লিভিং রুম ও আধুনিক কিচেনের বিফোর-আফটার আর্কিটেকচারাল ফটো এডিটিং—কালার কাস্ট রিমুভাল, ডিপ শ্যাডো লিফট এবং প্রাকৃতিক লিস্টিং-রেডি লাইটিং।',
+    },
+    deliverables: [
+      { en: 'Neutral White Balance & Color Cast Removal', bn: 'নিখুঁত হোয়াইট ব্যালেন্স ও কালার কাস্ট রিমুভাল' },
+      { en: 'Multi-Room Shadow Lift & Exposure Blending', bn: 'শ্যাডো রিকভারি ও প্রাকৃতিক এক্সপোজার ব্লেন্ডিং' },
+      { en: 'Straight Verticals & MLS-Ready Clarity', bn: 'নিখুঁত ভার্টিক্যাল লাইন ও লিস্টিং-রেডি ক্ল্যারিটি' },
+    ],
+    tools: ['Adobe Lightroom', 'Adobe Photoshop'],
     isDemo: false,
   },
   {
@@ -856,10 +1071,10 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     isDemo: false,
   },
   {
-    id: 'demo-canvas-abstract-wallart',
+    id: 'canvas-dark-birthday-calendar',
     title: {
-      en: 'Gallery-Grade Abstract Wall Canvas Design',
-      bn: 'গ্যালারি-গ্রেড অ্যাবস্ট্রাক্ট ওয়াল ক্যানভাস ডিজাইন',
+      en: 'Editorial Black Birthday Collage & Calendar Canvas',
+      bn: 'ব্ল্যাক বার্থডে কোলাজ ও ক্যালেন্ডার ক্যানভাস ডিজাইন',
     },
     category: 'canvas',
     categoryLabel: {
@@ -867,22 +1082,142 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
       bn: 'ক্যানভাস ডিজাইন',
     },
     serviceId: 'graphic-design',
-    image: '/src/assets/images/canvas_design_sample_1795458788207.jpg',
+    image: '/assets/aistudio/tttttt_a5f2dde9.jpg',
     imageAlt: {
-      en: 'Demonstration sample of a luxury gallery-wrapped abstract gold and terracotta wall canvas design mounted on a dark architectural wall',
-      bn: 'আধুনিক ইন্টেরিয়রের জন্য গোল্ড ও টেরাকোটা টেক্সচার্ড ওয়াল ক্যানভাস ডিজাইনের ডেমো নমুনা',
+      en: 'Custom birthday canvas print design on a sleek black background featuring a primary portrait, color and monochrome inset photo collage, and October heart-marked calendar',
+      bn: 'কালো ব্যাকগ্রাউন্ডে কালার ও সাদাকালো ফটো কোলাজ এবং অক্টোবর ক্যালেন্ডারসহ কাস্টম বার্থডে ক্যানভাস ডিজাইন',
     },
     aspect: 'standard',
     summary: {
-      en: 'Demonstration of high-resolution custom wall canvas artwork, gallery-wrap bleed setup, realistic interior staging mockups, and print-ready CMYK preparation for home decor and e-commerce brands.',
-      bn: 'হোম ডেকর ও ই-কমার্স ব্র্যান্ডের জন্য হাই-রেজোলিউশন কাস্টম ক্যানভাস আর্টওয়ার্ক, গ্যালারি-র‍্যাপ ব্লিড সেটআপ, ইন্টেরিয়র মকআপ এবং প্রিন্ট-রেডি CMYK ফাইল প্রস্তুতির ডেমো নমুনা।',
+      en: 'Personalized black-canvas birthday gift layout pairing a vibrant hero portrait with alternating color and black-and-white polaroid insets, a custom heart-marked month calendar, and refined serif typography.',
+      bn: 'উজ্জ্বল মূল পোর্ট্রেট, কালার ও সাদাকালো কোলাজ ফ্রেম, তারিখ-চিহ্নিত ক্যালেন্ডার এবং মার্জিত টাইপোগ্রাফিসহ কাস্টম বার্থডে ক্যানভাস ডিজাইন।',
     },
     deliverables: [
-      { en: '300 DPI Print-Ready Canvas Artwork', bn: '300 DPI প্রিন্ট-রেডি ক্যানভাস আর্টওয়ার্ক' },
-      { en: 'Gallery-Wrap Bleed & Multi-Size Ratios', bn: 'গ্যালারি-র‍্যাপ ব্লিড ও বিভিন্ন সাইজ রেশিও' },
-      { en: 'Photorealistic Interior Wall Mockups', bn: 'রিয়েলিস্টিক ইন্টেরিয়র ওয়াল মকআপ' },
+      { en: 'Custom Multi-Photo Collage & B&W Styling', bn: 'কাস্টম ফটো কোলাজ ও মনোক্রোম স্টাইলিং' },
+      { en: 'Personalized Date-Highlighted Calendar Grid', bn: 'তারিখ-হাইলাইট করা কাস্টম ক্যালেন্ডার' },
+      { en: '300 DPI Print-Ready Canvas Master File', bn: '300 DPI প্রিন্ট-রেডি ক্যানভাস মাস্টার ফাইল' },
     ],
-    tools: ['Adobe Photoshop', 'Adobe Illustrator', 'AI Creative Tools'],
-    isDemo: true,
+    tools: ['Adobe Photoshop', 'Adobe Illustrator'],
+    isDemo: false,
+  },
+  {
+    id: 'canvas-march-birthday-frame',
+    title: {
+      en: 'Multi-Portrait Birthday & Calendar Framed Canvas',
+      bn: 'মাল্টি-পোর্ট্রেট বার্থডে ও ক্যালেন্ডার ফ্রেমড ক্যানভাস',
+    },
+    category: 'canvas',
+    categoryLabel: {
+      en: 'Canvas Design',
+      bn: 'ক্যানভাস ডিজাইন',
+    },
+    serviceId: 'graphic-design',
+    image: '/assets/aistudio/ttttt_6ea94655.jpg',
+    imageAlt: {
+      en: 'White framed birthday canvas design combining three diagonal background portraits, a blended foreground cutout, March calendar, festive balloons, and script message',
+      bn: 'সাদা ফ্রেমে তিনটি ব্যাকগ্রাউন্ড পোর্ট্রেট, ফোরগ্রাউন্ড কাটআউট ও মার্চ ক্যালেন্ডারসহ বার্থডে ক্যানভাস ডিজাইন',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Warm celebratory canvas gift design combining softly feathered diagonal photo panels, a clean foreground subject blend, custom month calendar, and heartfelt birthday calligraphy.',
+      bn: 'সফট ফেদার্ড ডায়াগনাল ফটো প্যানেল, ফোরগ্রাউন্ড পোর্ট্রেট ব্লেন্ড, ক্যালেন্ডার ও বার্থডে ক্যালিগ্রাফিসহ আকর্ষণীয় ফ্রেমড ক্যানভাস ডিজাইন।',
+    },
+    deliverables: [
+      { en: 'Layered Subject Cutout & Soft Feather Blend', bn: 'লেয়ার্ড সাবজেক্ট কাটআউট ও সফট ব্লেন্ডিং' },
+      { en: 'Custom Birthday Calligraphy & Calendar', bn: 'কাস্টম বার্থডে ক্যালিগ্রাফি ও ক্যালেন্ডার' },
+      { en: 'Print-Ready File & Interior Frame Mockup', bn: 'প্রিন্ট-রেডি ফাইল ও ফ্রেম মকআপ' },
+    ],
+    tools: ['Adobe Photoshop'],
+    isDemo: false,
+  },
+  {
+    id: 'canvas-anniversary-memory-frame',
+    title: {
+      en: 'Wedding Anniversary Memory Collage Canvas',
+      bn: 'ওয়েডিং অ্যানিভার্সারি মেমোরি কোলাজ ক্যানভাস',
+    },
+    category: 'canvas',
+    categoryLabel: {
+      en: 'Canvas Design',
+      bn: 'ক্যানভাস ডিজাইন',
+    },
+    serviceId: 'graphic-design',
+    image: '/assets/aistudio/tttt_1b20ab6d.jpg',
+    imageAlt: {
+      en: 'Black framed wedding anniversary memory canvas featuring an ornamental August 2025 calendar wreath, couple hero portrait, eight rounded wedding photos, and couple signature names',
+      bn: 'কালো ফ্রেমে অ্যানিভার্সারি ক্যালেন্ডার, কাপল পোর্ট্রেট ও ৮টি ওয়েডিং ছবির কোলাজসহ ক্যানভাস ডিজাইন',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Keepsake wedding anniversary canvas design combining an ornate floral calendar emblem, romantic dedication quote, featured couple portrait, and an eight-moment photo story grid on matte black.',
+      bn: 'অর্নামেন্টাল ক্যালেন্ডার ফ্রেম, রোমান্টিক বার্তা, মূল কাপল পোর্ট্রেট এবং ৮টি স্মৃতিময় ছবির গ্রিডসহ প্রিমিয়াম অ্যানিভার্সারি ক্যানভাস ডিজাইন।',
+    },
+    deliverables: [
+      { en: '9-Photo Balanced Memory Grid Layout', bn: '৯টি ছবির সুষম মেমোরি কোলাজ লেআউট' },
+      { en: 'Ornamental Anniversary Calendar & Script', bn: 'অর্নামেন্টাল ক্যালেন্ডার ও কাস্টম টাইপোগ্রাফি' },
+      { en: 'High-Resolution Print & Frame Export', bn: 'হাই-রেজোলিউশন প্রিন্ট ও ফ্রেম এক্সপোর্ট' },
+    ],
+    tools: ['Adobe Photoshop', 'Adobe Illustrator'],
+    isDemo: false,
+  },
+  {
+    id: 'canvas-geometric-diamond-birthday',
+    title: {
+      en: 'Geometric Diamond Collage Birthday Canvas',
+      bn: 'জিওমেট্রিক ডায়মন্ড কোলাজ বার্থডে ক্যানভাস',
+    },
+    category: 'canvas',
+    categoryLabel: {
+      en: 'Canvas Design',
+      bn: 'ক্যানভাস ডিজাইন',
+    },
+    serviceId: 'graphic-design',
+    image: '/assets/aistudio/tt_0433db3e.jpg',
+    imageAlt: {
+      en: 'Minimalist white framed birthday canvas design with three geometric diamond photo frames, pop-out center portrait, red rose accent, and custom Happy Birthday typography',
+      bn: 'সাদা ফ্রেমে জ্যামিতিক ডায়মন্ড ফটো কোলাজ, ফোরগ্রাউন্ড পোর্ট্রেট ও ফ্লোরাল অ্যাকসেন্টসহ বার্থডে ক্যানভাস ডিজাইন',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Clean modern gallery canvas built around crisp diamond-masked portrait frames, a pop-out center subject cutout, delicate red floral ornament, and tailored birthday lettering.',
+      bn: 'আধুনিক ডায়মন্ড ফটো ফ্রেম, পপ-আউট সেন্টার পোর্ট্রেট কাটআউট, ফ্লোরাল অলংকরণ এবং কাস্টম বার্থডে টাইপোগ্রাফিসহ পরিচ্ছন্ন ক্যানভাস ডিজাইন।',
+    },
+    deliverables: [
+      { en: 'Geometric Masking & Pop-Out Subject Blend', bn: 'জিওমেট্রিক মাস্কিং ও পপ-আউট পোর্ট্রেট ব্লেন্ড' },
+      { en: 'Clean White-Space Typography & Floral Art', bn: 'পরিচ্ছন্ন টাইপোগ্রাফি ও ফ্লোরাল অ্যাকসেন্ট' },
+      { en: '300 DPI Frame-Ready Canvas Export', bn: '300 DPI ফ্রেম-রেডি ক্যানভাস এক্সপোর্ট' },
+    ],
+    tools: ['Adobe Photoshop'],
+    isDemo: false,
+  },
+  {
+    id: 'canvas-our-love-story-couple',
+    title: {
+      en: 'Our Love Story Couple Double-Exposure Canvas',
+      bn: 'আওয়ার লাভ স্টোরি কাপল ডাবল-এক্সপোজার ক্যানভাস',
+    },
+    category: 'canvas',
+    categoryLabel: {
+      en: 'Canvas Design',
+      bn: 'ক্যানভাস ডিজাইন',
+    },
+    serviceId: 'graphic-design',
+    image: '/assets/aistudio/ttt_9a02eb0a.jpg',
+    imageAlt: {
+      en: 'Romantic framed couple canvas artwork titled Our Love Story blending two wedding portraits into a golden sunset double-exposure composition with original source photos shown beside it',
+      bn: 'দুটি কাপল ফটোকে সোনালি সূর্যাস্তের ডাবল-এক্সপোজার কম্পোজিশনে রূপান্তরিত আওয়ার লাভ স্টোরি ক্যানভাস ডিজাইন',
+    },
+    aspect: 'standard',
+    summary: {
+      en: 'Cinematic couple keepsake canvas seamlessly blending two separate portraits into a warm sunset double-exposure composition with glowing rim light, brushed heart script, and custom quote.',
+      bn: 'দুটি আলাদা কাপল ফটোকে সোনালি সূর্যাস্তের ডাবল-এক্সপোজার কম্পোজিশন, উষ্ণ রিম লাইট ও কাস্টম টাইপোগ্রাফিতে রূপান্তরিত রোমান্টিক ক্যানভাস ডিজাইন।',
+    },
+    deliverables: [
+      { en: 'Multi-Photo Double-Exposure Compositing', bn: 'মাল্টি-ফটো ডাবল-এক্সপোজার কম্পোজিটিং' },
+      { en: 'Golden Sunset Glow & Color Harmonization', bn: 'সোনালি সূর্যাস্ত গ্লো ও কালার হার্মোনাইজেশন' },
+      { en: 'Custom Script Lettering & Print Master', bn: 'কাস্টম স্ক্রিপ্ট টাইপোগ্রাফি ও প্রিন্ট মাস্টার' },
+    ],
+    tools: ['Adobe Photoshop', 'Adobe Lightroom'],
+    isDemo: false,
   },
 ];

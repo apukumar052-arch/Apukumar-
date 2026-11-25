@@ -260,7 +260,8 @@ export const TRANSLATIONS = {
         dispatchReadyTitle: 'Project Brief Validated & Ready to Send',
         dispatchReadyText:
           'No backend form endpoint is configured yet, so nothing was automatically emailed. Use one of the verified direct actions below to send your formatted inquiry right now:',
-        openEmailBtn: 'Open Pre-Filled Email',
+        openEmailBtn: 'Send via Gmail',
+        openMailAppBtn: 'Or use default mail app',
         openWhatsappBtn: 'Send via WhatsApp',
         copyBriefBtn: 'Copy Formatted Brief',
         copiedBtn: 'Brief Copied',
@@ -533,7 +534,8 @@ export const TRANSLATIONS = {
         dispatchReadyTitle: 'প্রজেক্ট ব্রিফ যাচাই ও পাঠানোর জন্য প্রস্তুত',
         dispatchReadyText:
           'এখনো ব্যাকএন্ড ফর্ম এন্ডপয়েন্ট যুক্ত করা হয়নি, তাই স্বয়ংক্রিয়ভাবে ইমেইল পাঠানো হয়নি। নিচের যেকোনো সরাসরি মাধ্যম ব্যবহার করে আপনার বার্তাটি পাঠান:',
-        openEmailBtn: 'ইমেইল অ্যাপে খুলুন',
+        openEmailBtn: 'জিমেইলে পাঠান',
+        openMailAppBtn: 'অথবা ডিফল্ট মেইল অ্যাপ খুলুন',
         openWhatsappBtn: 'হোয়াটসঅ্যাপে পাঠান',
         copyBriefBtn: 'ব্রিফ কপি করুন',
         copiedBtn: 'কপি হয়েছে',
